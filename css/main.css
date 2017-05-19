@@ -2,6 +2,9 @@
  /*Logo blackish =#343d3e*/
 body {
   background: rgb(244, 236, 217);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
@@ -20,6 +23,7 @@ img.logo {
 
 .center {
   text-align: center;
+  color: #343d3e;
 }
 
 .intro-text {
@@ -38,7 +42,9 @@ img.logo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 3px solid ;
+  border: 2px solid ;
+  border-radius: 15px;
+  padding: 1rem;
   margin: 1rem;
   margin-top: 3rem;
   max-width: 30rem;
@@ -55,16 +61,36 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   width: 7rem;
 }
 
-.button-secondary {
-  color: white;
-  border-radius: 4px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  background: rgb(0,157,220); /* this is a light blue */
+.button-success,
+        .button-error,
+        .button-warning,
+        .button-secondary {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            background: rgb(0,157,220);
+        }
+
+        .button-success {
+            background: rgb(28, 184, 65); /* this is a green */
+        }
+
+        .button-error {
+            background: rgb(202, 60, 60); /* this is a maroon */
+        }
+
+        .button-warning {
+            background: rgb(223, 117, 20); /* this is an orange */
+        }
+
+
+.flex{
+  flex: 1;
 }
 
 .footer {
   text-align: center;
-  margin-top: 4rem;
+  /*margin-top: auto;*/
   color: #86848a;
   font-size: .9em;
 }
@@ -75,9 +101,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   flex-wrap: wrap;
 }
 
-.container span {
-
-}
+/*reading exercises*/
 
 #exercise1 {
   margin-bottom: 1rem;
@@ -109,4 +133,58 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   padding: 1rem;
   background: pink;
   border-radius: 10px;
+}
+
+/*Link styling no style*/
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+/*Back Button and span arrow*/
+#arrow {
+  padding-right: 1rem;
+  padding-bottom: -1rem;
+  font-size: 1.8rem;
+}
+
+.back-button {
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+
+/*Navigation page*/
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.navItem {
+  margin: 1rem;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border: 3px solid #343d3e;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 15rem;
 }
