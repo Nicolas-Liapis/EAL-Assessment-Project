@@ -1,5 +1,24 @@
 /*Colors*/
  /*Logo blackish =#343d3e*/
+
+ /*Global css attributes*/
+ .bigger {
+   font-size: 1.2rem;
+ }
+
+ .biggest {
+   font-size: 2.2rem;
+ }
+
+.minor {
+  border: 1px solid lightgrey;
+}
+
+.major {
+  margin-top: 3rem;
+  border: 2px solid #343d3e;
+}
+
 body {
   background: rgb(244, 236, 217);
   min-height: 100%;
@@ -95,15 +114,66 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   font-size: .9em;
 }
 
+/*Containers*/
+
 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container-column {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.container-column-master {
+  display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-flex-flow: column wrap;
+   flex-flow: column wrap;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+   max-height: 50rem;;
+}
+
+.word-box {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  background: rgb(162, 161, 235);
+  border-radius: 15px;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.word-box span {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+/*-------------------------------*/
+
 /*reading exercises*/
 
-#exercise1 {
+.exercises {
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -115,24 +185,78 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   padding: 1rem;
   background: rgb(236, 102, 66);
   border-radius: 10px;
+  width: 210px;
+  text-align: center;
 }
 
 #ex2 {
   padding: 1rem;
   background: rgb(90, 162, 237);
   border-radius: 10px;
+  width: 210px;
+  text-align: center;
 }
 
 #ex3 {
   padding: 1rem;
   background: rgb(140, 209, 112);
   border-radius: 10px;
+  width: 210px;
+  text-align: center;
 }
 
 #ex4 {
   padding: 1rem;
   background: pink;
   border-radius: 10px;
+  width: 210px;
+  text-align: center;
+}
+
+/*Circles with colors*/
+
+#circle-yellow {
+  background: yellow;
+  border-radius: 15px;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 2rem;
+  padding-right: .4rem;
+  padding-bottom: .4rem;
+  margin-bottom: 2rem;
+}
+
+#circle-orange {
+  background: #f29d1e;
+  border-radius: 15px;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 2rem;
+  padding-right: .4rem;
+  padding-bottom: .4rem;
+  margin-bottom: 2rem;
+}
+
+#circle-blue {
+  background: #4364db;
+  border-radius: 15px;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  padding-right: .4rem;
+  padding-bottom: .4rem;
+}
+
+#circle-pink {
+  background: #fa7ce2;
+  border-radius: 15px;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 2rem;
+  padding-right: .4rem;
+  padding-bottom: .4rem;
+  margin-bottom: 2rem;
 }
 
 /*Link styling no style*/
@@ -187,4 +311,60 @@ a:active {
   border-radius: 15px;
   text-align: center;
   line-height: 15rem;
+}
+
+.voc-words {
+  width: 7rem;
+  height: 7rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.drag-item {
+  width: 5rem;
+  height: 5rem;
+  padding-left: .3rem;
+  padding-top: .3rem;
+}
+
+ .container span {
+  font-weight: 600;
+  font-size: 1.6rem;
+  width: 6.5rem;
+  text-align: center;
+  margin-left: 3rem;
+  margin-top: 2rem;
+
+}
+
+.box {
+  border: 2px solid #343d3e;
+  border-radius: 15px;
+  width: 5.7rem;
+  height: 5.7rem;
+  margin: 2rem;
+}
+
+/*Inputs*/
+
+.number-input {
+  width: 4rem;
+  height: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+  margin-right: 3rem;
+  font-size: 2.5rem;
+}
+
+.text-input {
+  width: 12rem;
+  height: 3rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-size: 2.5rem;
+}
+
+.maths {
+  display: flex;
+  flex-direction: row;
 }
