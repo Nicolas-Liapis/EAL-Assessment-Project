@@ -172,10 +172,6 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   padding: 1rem;
 }
 
-#first_span {
-  margin-left: 3rem;
-}
-
 /*-------------------------------*/
 
 /*reading exercises*/
@@ -265,6 +261,31 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   padding-right: .4rem;
   padding-bottom: .4rem;
   margin-bottom: 2rem;
+}
+
+/*Other exercises 4-6*/
+#first_span {
+  margin-left: 3rem;
+}
+
+.story-text {
+  font-size: 1.3rem;
+  text-align: justify;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-right: 3rem;
+}
+
+/*Story section*/
+
+.clear {
+  list-style: none;
+}
+
+.story-answer {
+  padding-left: 1rem;
+  font-size: 1.15rem;
+  padding-right: 1rem;
 }
 
 /*Link styling no style*/
