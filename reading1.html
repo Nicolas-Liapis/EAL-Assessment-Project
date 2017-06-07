@@ -17,28 +17,32 @@
           Click on the word that is written correctly.
         </li>
           <div class="container">
-            <button id="ex1" class="examples bigger">NᗄME</button>
-            <button id="ex2" class="examples bigger">ИAMƎ</button>
-            <button id="ex3" class="examples bigger">NAME</button>
-            <button id="ex4" class="examples bigger">ƎMAИ</button>
+            <button id="b1" class="examples bigger ex1">NᗄME</button>
+            <button id="b2" class="examples bigger ex2">ИAMƎ</button>
+            <button id="b3" class="examples bigger ex3">NAME</button>
+            <button id="b4" class="examples bigger ex4">ƎMAИ</button>
           </div><hr class="minor">
           <div class="container">
-            <button id="ex1" class="examples bigger">ᗡATƎ</button>
-            <button id="ex2" class="examples bigger">ƎTAᗡ</button>
-            <button id="ex3" class="examples bigger">Dᗄ⊥E</button>
-            <button id="ex4" class="examples bigger">DATE</button>
+            <button id="b5" class="examples bigger ex1">ᗡATƎ</button>
+            <button id="b6" class="examples bigger ex2">ƎTAᗡ</button>
+            <button id="b7" class="examples bigger ex3">Dᗄ⊥E</button>
+            <button id="b8" class="examples bigger ex4">DATE</button>
           </div><hr class="minor">
           <div class="container">
-            <button id="ex1" class="examples bigger">TƎAƆHƎЯ</button>
-            <button id="ex2" class="examples bigger">TEACHER</button>
-            <button id="ex3" class="examples bigger">ЯƎHƆAƎT</button>
-            <button id="ex4" class="examples bigger">⊥EᗄCHEᖉ</button>
+            <button id="b9" class="examples bigger ex1">TƎAƆHƎЯ</button>
+            <button id="b10" class="examples bigger ex2">TEACHER</button>
+            <button id="b11" class="examples bigger ex3">ЯƎHƆAƎT</button>
+            <button id="b12" class="examples bigger ex4">⊥EᗄCHEᖉ</button>
           </div><hr class="minor">
           <div class="container">
-            <button id="ex1" class="examples bigger">MOOИ</button>
-            <button id="ex2" class="examples bigger">ʍOON</button>
-            <button id="ex3" class="examples bigger">ИOOM</button>
-            <button id="ex4" class="examples bigger">MOON</button>
+            <button id="b13" class="examples bigger ex1">MOOИ</button>
+            <button id="b14" class="examples bigger ex2">ʍOON</button>
+            <button id="b15" class="examples bigger ex3">ИOOM</button>
+            <button id="b16" class="examples bigger ex4">MOON</button>
+          </div>
+          <div class="button-container">
+            <button id="repeat1" class="pure-button pure-button-primary js-button">Try again</button>
+            <button id="done1" class="pure-button pure-button-primary js-button">Done</button>
           </div>
           <hr class="major">
           <li class="exercises biggest">
@@ -103,9 +107,11 @@
             <div class="box" id="div19" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
             <div class="box" id="div20" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
           </div>
+          <button id="repeat" class="pure-button pure-button-primary js-button">Try again</button>
+          <button id="done" class="pure-button pure-button-primary js-button">Done</button>
           <hr class="major">
           <li class="exercises biggest">
-            Put the numbers from smaller to bigger.
+            Put the numbers from smallest to biggest.
           </li>
           <div class="letter-cont">
             <img id="drag21" draggable="true" ondragstart="drag(event)" class="drag-item" src="media/letters/50.png" alt="number 50">
@@ -238,13 +244,15 @@
             </div>
           <hr class="major">
             <li class="exercises biggest">
-              Read the following story and answer the questions that follow.
+              Read the following story and answer the questions.
             </li>
           <div class="container-flex">
             <p class="story-text">
+              <img src="media/pics/story/lion.png" align="left">
               One day, the king of the jungle was asleep under a shady tree where he lived. A small, lost mouse was passing by. He saw the sleeping lion. The mouse tried to go around the lion. His tail touched the lion’s paw and the lion awoke. The lion was very angry at the mouse. He caught him between his claws and shouted at him.
             </p>
             <p class="story-text">
+              <img src="media/pics/story/mouse.png" align="right">
               “How dare you touch me? Do you know who I am? I will eat you!”
               “Please, don’t kill me. I can help you whenever you need it!” replied the mouse.
               The lion laughed loudly.
@@ -300,5 +308,7 @@
     </main>
       <script type="text/javascript" src="js/drag.js"></script>
       <script type="text/javascript" src="js/click.js"></script>
+      <script type="text/javascript" src="js/done_button.js"></script>
+      <script type="text/javascript" src="js/repeat_button.js"></script>
   </body>
 </html>

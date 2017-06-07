@@ -75,33 +75,6 @@ input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
 input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
 input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
-.btn {
-  padding: 1rem;
-  margin: 1rem;
-  width: 7rem;
-}
-
-.button-success,
-        .button-error,
-        .button-warning,
-        .button-secondary {
-            color: white;
-            border-radius: 4px;
-            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-            background: rgb(0,157,220);
-        }
-
-        .button-success {
-            background: rgb(28, 184, 65); /* this is a green */
-        }
-
-        .button-error {
-            background: rgb(202, 60, 60); /* this is a maroon */
-        }
-
-        .button-warning {
-            background: rgb(223, 117, 20); /* this is an orange */
-        }
 
 
 .flex{
@@ -185,33 +158,33 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   margin: 2rem;
 }
 
-#ex1 {
+.ex1 {
   padding: 1rem;
-  background: rgb(236, 102, 66);
+  background: #ec6642;
   border-radius: 10px;
   width: 210px;
   text-align: center;
 }
 
-#ex2 {
+.ex2 {
   padding: 1rem;
-  background: rgb(90, 162, 237);
+  background: #5aa2ed;
   border-radius: 10px;
   width: 210px;
   text-align: center;
 }
 
-#ex3 {
+.ex3 {
   padding: 1rem;
-  background: rgb(140, 209, 112);
+  background: #8cd170;
   border-radius: 10px;
   width: 210px;
   text-align: center;
 }
 
-#ex4 {
+.ex4 {
   padding: 1rem;
-  background: pink;
+  background: #f499f9;
   border-radius: 10px;
   width: 210px;
   text-align: center;
@@ -309,7 +282,7 @@ a:active {
     color: white;
 }
 
-/*Back Button and span arrow*/
+/*Button and arrows*/
 #arrow {
   padding-right: 1rem;
   padding-bottom: -1rem;
@@ -319,6 +292,44 @@ a:active {
 .back-button {
   font-size: 1.1rem;
   margin: 1rem;
+}
+
+.btn {
+  padding: 1rem;
+  margin: 1rem;
+  width: 7rem;
+}
+
+.button-success,
+        .button-error,
+        .button-warning,
+        .button-secondary {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            background: rgb(0,157,220);
+        }
+
+        .button-success {
+            background: rgb(28, 184, 65); /* this is a green */
+        }
+
+        .button-error {
+            background: rgb(202, 60, 60); /* this is a maroon */
+        }
+
+        .button-warning {
+            background: rgb(223, 117, 20); /* this is an orange */
+        }
+.js-button {
+  border-radius: 15px;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  background: #eec139;
+  width: 7rem;
+  border: 2px solid #343d3e;
+  color: #343d3e;
+  font-weight: 600;
 }
 
 /*Navigation page*/
