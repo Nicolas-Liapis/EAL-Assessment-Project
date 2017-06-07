@@ -7,7 +7,7 @@ repeat.onclick = function () {
  document.getElementById('b3').style.backgroundColor = "#8cd170";
  document.getElementById('b4').style.backgroundColor = "#f499f9";
 
- document.getElementById('b5').style.backgroundColor = "#ec6642";
+document.getElementById('b5').style.backgroundColor = "#ec6642";
 document.getElementById('b6').style.backgroundColor = "#5aa2ed";
 document.getElementById('b7').style.backgroundColor = "#8cd170";
 document.getElementById('b8').style.backgroundColor = "#f499f9";
@@ -60,3 +60,9 @@ document.getElementById('b16').style.color = '#343d3e';
  document.getElementById('b15').disabled = false;
  document.getElementById('b16').disabled = false;
 };
+
+var goBack = document.getElementById('repeat2');
+
+goBack.onclick = function () {
+  $( ".selector" ).draggable({ revert: true });
+}
