@@ -60,9 +60,3 @@ document.getElementById('b16').style.color = '#343d3e';
  document.getElementById('b15').disabled = false;
  document.getElementById('b16').disabled = false;
 };
-
-var goBack = document.getElementById('repeat2');
-
-goBack.onclick = function () {
-  $( ".selector" ).draggable({ revert: true });
-}

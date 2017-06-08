@@ -1,8 +1,8 @@
-var done = document.getElementById('done1');
+var done1 = document.getElementById('done1');
+var done2 = document.getElementById('done2');
 var score = 0;
 
-done.onclick = function () {
-  document.getElementById('repeat1').disabled = true;
+done1.onclick = function () {
 
   if (document.getElementById('b3').disabled == false) {
     score++;
@@ -26,5 +26,13 @@ done.onclick = function () {
   }
   // remove alert when a score counter is in place
   alert('Your score is ' + score);
-  document.getElementById('done1').disabled = true;
+}
+
+done2.onclick = function () {
+  if ('drag26' == 'div28') {
+    score++;
+  } else {
+    score = score;
+  }
+  alert('Your score is ' + score);
 }

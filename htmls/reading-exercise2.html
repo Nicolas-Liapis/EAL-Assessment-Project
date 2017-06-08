@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lister EAL Assessment</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/mediaqueries.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
+    <script src="../js/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <ol class="layout">
+        <li class="exercises biggest">
+          Put the letters in alphabetical order.
+        </li>
+        <div class="letter-cont">
+          <img id="drag1" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/d.png" alt="letter D">
+          <img id="drag2" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/w.png" alt="letter W">
+          <img id="drag3" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/m.png" alt="letter M">
+          <img id="drag4" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/A.png" alt="letter A">
+          <img id="drag5" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/i.jpg" alt="letter I">
+        </div>
+        <div class="container">
+          <div class="box" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <hr class="minor">
+        <div class="letter-cont">
+          <img id="drag6" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/j.png" alt="letter J">
+          <img id="drag7" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/p.png" alt="letter P">
+          <img id="drag8" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/r.png" alt="letter R">
+          <img id="drag9" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/c.png" alt="letter C">
+          <img id="drag10" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/g.png" alt="letter G">
+        </div>
+        <div class="container">
+          <div class="box" id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div10" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <hr class="minor">
+        <div class="letter-cont">
+          <img id="drag11" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/n.png" alt="letter N">
+          <img id="drag12" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/q.png" alt="letter Q">
+          <img id="drag13" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/b.png" alt="letter B">
+          <img id="drag14" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/e.png" alt="letter E">
+          <img id="drag15" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/h.png" alt="letter H">
+        </div>
+        <div class="container">
+          <div class="box" id="div11" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div12" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div13" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div14" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div15" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <hr class="minor">
+        <div class="letter-cont">
+          <img id="drag16" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/k.png" alt="letter K">
+          <img id="drag17" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/d.png" alt="letter D">
+          <img id="drag18" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/b.png" alt="letter b">
+          <img id="drag19" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/s.png" alt="letter S">
+          <img id="drag20" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/o.png" alt="letter O">
+        </div>
+        <div class="container">
+          <div class="box" id="div16" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div17" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div18" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div19" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div20" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <hr class="major">
+        <li class="exercises biggest">
+          Put the numbers from smallest to biggest.
+        </li>
+        <div class="letter-cont">
+          <img id="drag21" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/50.png" alt="number 50">
+          <img id="drag22" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/3.png" alt="number 3">
+          <img id="drag23" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/21.png" alt="number 21">
+          <img id="drag24" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/34.png" alt="number 34">
+          <img id="drag25" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/11.png" alt="number 11">
+        </div>
+        <div class="container">
+          <div class="box" id="div21" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div22" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div23" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div24" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div25" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <hr class="minor">
+        <div class="letter-cont">
+          <img id="drag26" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/34.png" alt="number 34">
+          <img id="drag27" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/41.png" alt="number 41">
+          <img id="drag28" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/62.png" alt="number 62">
+          <img id="drag29" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/2.png" alt="number 2">
+          <img id="drag30" draggable="true" ondragstart="drag(event)" class="drag-item" src="../media/letters/17.png" alt="number 17">
+        </div>
+        <div class="container">
+          <div class="box" id="div26" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div27" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div28" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div29" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="div30" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <a href="../htmls/reading-exercise3.html"><button  id="done2" class="pure-button pure-button-primary js-button">Done</button></a>
+        <hr class="major">
+      </ol>
+    </main>
+      <script type="text/javascript" src="../js/drag.js"></script>
+      <script type="text/javascript" src="../js/click.js"></script>
+      <script type="text/javascript" src="../js/done_button.js"></script>
+  </body>
+</html>
