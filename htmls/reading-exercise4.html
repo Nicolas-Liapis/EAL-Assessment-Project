@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lister EAL Assessment</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/mediaqueries.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
+    <script src="jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <main>
+
+        <p class="exercises biggest">
+          Match the colors.
+        </p>
+        <div class="container">
+          <div id="circle-yellow" class="drag-item" draggable="true" ondragstart="drag(event)"></div>
+          <div id="circle-blue" class="drag-item" draggable="true" ondragstart="drag(event)"></div>
+          <div id="circle-orange" class="drag-item" draggable="true" ondragstart="drag(event)"></div>
+          <div id="circle-pink" class="drag-item" draggable="true" ondragstart="drag(event)"></div>
+        </div>
+        <div class="container-flex">
+          <div class="container">
+            <span>Yellow:</span>
+            <div class="box" id="div31" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          </div>
+          <div class="container">
+            <span>Orange:</span>
+            <div class="box" id="div32" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          </div>
+          <div class="container">
+            <span>Blue:</span>
+            <div class="box" id="div33" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          </div>
+          <div class="container">
+            <span>Pink:</span>
+            <div class="box" id="div34" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          </div>
+        </div>
+        <a href="../htmls/reading-exercise5.html">
+          <button id="done4" class="pure-button pure-button-primary js-button">Done</button>
+        </a>
+        <hr class="major">
+
+      </div>
+
+    </main>
+    <script type="text/javascript" src="../js/drag.js"></script>
+    <script type="text/javascript" src="../js/click.js"></script>
+    <script type="text/javascript" src="../js/done_button.js"></script>
+    <script type="text/javascript" src="../js/repeat_button.js"></script>
+  </body>
+</html>
