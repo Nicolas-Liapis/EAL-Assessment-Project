@@ -2,22 +2,23 @@
 var score = 0;
 
 function score1() {
-  document.getElementById('check1').disabled = true;
+  document.getElementById('done1').disabled = true;
    if (
     document.getElementById('b1').disabled === false && document.getElementById('b2').disabled === false && document.getElementById('b3').disabled === false && document.getElementById('b4').disabled === false &&
     document.getElementById('b5').disabled === false && document.getElementById('b6').disabled === false && document.getElementById('b7').disabled === false && document.getElementById('b8').disabled === false &&
     document.getElementById('b9').disabled === false && document.getElementById('b10').disabled === false && document.getElementById('b11').disabled === false && document.getElementById('b12').disabled === false &&
     document.getElementById('b13').disabled === false && document.getElementById('b14').disabled === false && document.getElementById('b15').disabled === false && document.getElementById('b16').disabled === false
   ) {
-    score = score;
+    score = 0;
+    if (score < 3) {document.getElementById('done1').disabled = true; alert('Student is Step 1');}
   }
-  if (document.getElementById('b3').disabled === false){score++;}else{score = score;}
-  if (document.getElementById('b8').disabled === false){score++;}else{score = score;}
-  if (document.getElementById('b10').disabled === false){score++;}else{score = score;}
-  if (document.getElementById('b16').disabled === false){score++;}else{score = score;}
-
-  if (score < 3) {document.getElementById('done1').disabled = true; alert('Student is Step 1');}
-  if (score > 3) {document.getElementById('check1').disabled = false;}
+  if (
+    document.getElementById('b1').disabled === true && document.getElementById('b2').disabled === true && document.getElementById('b3').disabled === false && document.getElementById('b4').disabled === true &&
+    document.getElementById('b5').disabled === true && document.getElementById('b6').disabled === true && document.getElementById('b7').disabled === true && document.getElementById('b8').disabled === false &&
+    document.getElementById('b9').disabled === true && document.getElementById('b10').disabled === false && document.getElementById('b11').disabled === true && document.getElementById('b12').disabled === true &&
+    document.getElementById('b13').disabled === true && document.getElementById('b14').disabled === true && document.getElementById('b15').disabled === true && document.getElementById('b16').disabled === false
+  )
+{document.getElementById('check1').disabled = false;}
 
 }
 
