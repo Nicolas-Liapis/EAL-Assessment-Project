@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
     <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
-    <script src="jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
   </head>
   <body>
     <main>
@@ -40,10 +40,12 @@
             <button id="b15" class="examples bigger ex3">ИOOM</button>
             <button id="b16" class="examples bigger ex4">MOON</button>
           </div>
-          <div class="button-container">
-            <button id="repeat1" class="pure-button pure-button-primary js-button">Try again</button>
-            
-            <a href="htmls/reading-exercise2.html"><button id="done1" class="pure-button pure-button-primary js-button far-right">Done</button></a>
+          <!-- no repeat button until bug is fixed -->
+          <!-- <div class="button-container">
+            <button id="repeat1" class="pure-button pure-button-primary js-button">Try again</button> -->
+            <a href="htmls/reading-exercise2.html">
+              <button id="done1" class="pure-button pure-button-primary js-button far-right" onclick="score1()">Done</button>
+            </a>
           </div>
           <hr class="major">
     </main>

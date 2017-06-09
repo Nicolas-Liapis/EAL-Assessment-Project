@@ -1,69 +1,30 @@
-var done1 = document.getElementById('done1');
 
 var score = 0;
 
-done1.onclick = function () {
+function score1() {
+   if (
+    document.getElementById('b1').disabled === false && document.getElementById('b2').disabled === false && document.getElementById('b3').disabled === false && document.getElementById('b4').disabled === false &&
+    document.getElementById('b5').disabled === false && document.getElementById('b6').disabled === false && document.getElementById('b7').disabled === false && document.getElementById('b8').disabled === false &&
+    document.getElementById('b9').disabled === false && document.getElementById('b10').disabled === false && document.getElementById('b11').disabled === false && document.getElementById('b12').disabled === false &&
+    document.getElementById('b13').disabled === false && document.getElementById('b14').disabled === false && document.getElementById('b15').disabled === false && document.getElementById('b16').disabled === false
+  ) {
+    score = score;
+  }
+  if (document.getElementById('b3').disabled === false){score++;}else{score = score;}
+  if (document.getElementById('b8').disabled === false){score++;}else{score = score;}
+  if (document.getElementById('b10').disabled === false){score++;}else{score = score;}
+  if (document.getElementById('b16').disabled === false){score++;}else{score = score;}
 
-  if (document.getElementById('b3').disabled == false) {
-    score++;
-  } else {
-    score = score;
-  }
-  if (document.getElementById('b8').disabled == false) {
-    score++;
-  } else {
-    score = score;
-  }
-  if (document.getElementById('b10').disabled == false) {
-    score++;
-  } else {
-    score = score;
-  }
-  if (document.getElementById('b16').disabled == false){
-    score++;
-  } else {
-    score = score;
-  }
-  // remove alert when a score counter is in place
-  alert('Your score is ' + score);
+  alert(score);
 }
-
-var drag1 = document.getElementById('drag1');
-var drag2 = document.getElementById('drag2');
-var drag3 = document.getElementById('drag3');
-var drag4 = document.getElementById('drag4');
-var drag5 = document.getElementById('drag5');
-// var drag6 = document.getElementById('drag6');
-// var drag7 = document.getElementById('drag7');
-// var drag8 = document.getElementById('drag8');
-// var drag9 = document.getElementById('drag9');
-// var drag10 = document.getElementById('drag10');
-// var drag11= document.getElementById('drag11');
-// var drag12 = document.getElementById('drag12');
-// var drag13 = document.getElementById('drag13');
-// var drag14 = document.getElementById('drag14');
-// var drag15 = document.getElementById('drag15');
-// var drag16 = document.getElementById('drag16');
-// var drag17 = document.getElementById('drag17');
-// var drag18 = document.getElementById('drag18');
-
-var div1 = document.getElementById('div1');
-var div2 = document.getElementById('div2');
-var div3 = document.getElementById('div3');
-var div4 = document.getElementById('div4');
-var div5 = document.getElementById('div5');
 
 function score2() {
   if ( $("#drag4").parents("#div1").length == 1 && $("#drag1").parents("#div2").length == 1 && $("#drag5").parents("#div3").length == 1 && $("#drag3").parents("#div4").length == 1 && $("#drag2").parents("#div5").length == 1 && $("#drag9").parents("#div6").length == 1 && $("#drag10").parents("#div7").length == 1 && $("#drag7").parents("#div9").length == 1 && $("#drag8").parents("#div10").length == 1 && $("#drag1").parents("#div2").length == 1 && $("#drag13").parents("#div11").length == 1 && $("#drag14").parents("#div12").length == 1 && $("#drag15").parents("#div13").length == 1 && $("#drag11").parents("#div14").length == 1 && $("#drag12").parents("#div15").length == 1 && $("#drag18").parents("#div16").length == 1 && $("#drag17").parents("#div17").length == 1 && $("#drag16").parents("#div18").length == 1 && $("#drag20").parents("#div19").length == 1 && $("#drag19").parents("#div20").length == 1) {
-
      score++;
-
-
   } else {
-
      score = score;
-     
   }
+       alert(score);
 }
 
 function score3() {
@@ -71,8 +32,77 @@ function score3() {
     score++;
     alert(score);
   } else {
-
      score = score;
      alert(score);
   }
+}
+
+function score4() {
+  var calc1 = document.getElementById('calc1').value;
+  var calc2 = document.getElementById('calc2').value;
+  var calc3 = document.getElementById('calc3').value;
+  var calc4 = document.getElementById('calc4').value;
+
+  if (calc1 == 11){score++;}else{score = score;}
+  if (calc2 == 17){score++;}else{score = score;}
+  if (calc3 == 21){score++;}else{score = score;}
+  if (calc4 == 5){score++;}else{score = score;}
+
+  alert(score);
+}
+
+function score5() {
+
+  if ( $("#circleYellow").parents("#div31").length == 1 && $("#circleOrange").parents("#div32").length == 1 && $("#circleBlue").parents("#div33").length == 1 && $("#circlePink").parents("#div34").length == 1) {
+    score++;
+
+  } else {
+    score = score;
+  }
+  alert(score);
+}
+
+function score6() {
+  var word1 = document.getElementById('word1').value;
+  var word2 = document.getElementById('word2').value;
+  var word3 = document.getElementById('word3').value;
+  var word4 = document.getElementById('word4').value;
+  var word5 = document.getElementById('word5').value;
+  var word6 = document.getElementById('word6').value;
+  var word7 = document.getElementById('word7').value;
+  var word8 = document.getElementById('word8').value;
+  var word9 = document.getElementById('word9').value;
+  var word10 = document.getElementById('word10').value;
+
+  if (word1 == 'twelve') {score++;}else {score = score;}
+  if (word2 == 'baby') {score++;}else {score = score;}
+  if (word3 == 'book') {score++;}else {score = score;}
+  if (word4 == 'car') {score++;}else {score = score;}
+  if (word5 == 'chair') {score++;}else {score = score;}
+  if (word6 == 'chicken') {score++;}else {score = score;}
+  if (word7 == 'flower') {score++;}else {score = score;}
+  if (word8 == 'house') {score++;}else {score = score;}
+  if (word9 == 'pencil') {score++;}else {score = score;}
+  if (word10 == 'two') {score++;}else {score = score;}
+
+  alert(score);
+}
+
+
+function score7() {
+  if( $('#answer1').is(':checked') ) {score++;}
+  if( $('#answer2').is(':checked') ) {score++;}
+  if( $('#answer3').is(':checked') ) {score++;}
+  if( $('#answer4').is(':checked') ) {score++;}
+  if( $('#answer5').is(':checked') ) {score++;}
+  if( $('#answer6').is(':checked') ) {score++;}
+  if( $('#answer7').is(':checked') ) {score++;}
+  if( $('#answer8').is(':checked') ) {score++;}
+  if( $('#answer9').is(':checked') ) {score++;}
+  if( $('#answer10').is(':checked') ) {score++;}
+  alert(score);
+}
+
+function findScore() {
+  alert('Your score is: ' + score);
 }

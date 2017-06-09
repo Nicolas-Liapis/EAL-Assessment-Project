@@ -192,7 +192,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 /*Circles with colors*/
 
-#circle-yellow {
+#circleYellow {
   background: yellow;
   border-radius: 15px;
   width: 5rem;
@@ -203,7 +203,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   margin-bottom: 2rem;
 }
 
-#circle-orange {
+#circleOrange {
   background: #f29d1e;
   border-radius: 15px;
   width: 5rem;
@@ -214,7 +214,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   margin-bottom: 2rem;
 }
 
-#circle-blue {
+#circleBlue {
   background: #4364db;
   border-radius: 15px;
   width: 5rem;
@@ -225,7 +225,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   padding-bottom: .4rem;
 }
 
-#circle-pink {
+#circlePink {
   background: #fa7ce2;
   border-radius: 15px;
   width: 5rem;
@@ -331,6 +331,12 @@ a:active {
   color: #343d3e;
   font-weight: 600;
 }
+/*
+input[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 1rem;
+}*/
 
 /*Navigation page*/
 
@@ -390,10 +396,9 @@ a:active {
 .number-input {
   width: 4rem;
   height: 1.5rem;
-  padding-top: 1rem;
   padding-bottom: .5rem;
   margin-right: 3rem;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
 }
 
 .text-input {

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/mediaqueries.css">
     <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
-    <script src="jquery-3.2.1.min.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
   </head>
   <body>
     <main>
@@ -39,42 +39,51 @@
         <li class="exercises bigger"> Who is the story about? Tick the correct answer.</li>
           <ul type="radio" class="clear">
             <input type="radio" name="answer0"><span class="story-answer">A lion</span><br>
-            <input type="radio" name="answer0"><span class="story-answer">A lion and a mouse</span><br>
+            <input type="radio" name="answer0" id="answer1"><span class="story-answer">A lion and a mouse</span><br>
             <input type="radio" name="answer0"><span class="story-answer">A mouse</span><br>
             <input type="radio" name="answer0"><span class="story-answer">A lion and a jungle</span>
           </ul>
         <li class="exercises bigger">Tick the most appropriate answer.<br>The lion thought the mouse was... </li>
-          <ul type="radio"></ul>
+        <ul type="radio">
+          <input type="radio" name="answer7"><span class="story-answer">Unhappy</span><br>
+          <input type="radio" name="answer7" id="answer2"><span class="story-answer">Funny</span><br>
+          <input type="radio" name="answer7"><span class="story-answer">Beautiful</span><br>
+        </ul>
         <li class="exercises bigger">Select True or False.</li>
           <ul type="radio">
             <span class="story-answer">The lion was the king of the jungle.</span>
-            <span class="story-answer">True</span><input type="radio" name="answer1"><span class="story-answer">False</span><input type="radio" name="answer1"><br><br>
+            <span class="story-answer">True</span><input type="radio" name="answer1" id="answer3"><span class="story-answer">False</span><input type="radio" name="answer1"><br><br>
+
             <span class="story-answer">The mouse knew where he was going.</span>
-            <span class="story-answer">True</span><input type="radio" name="answer2"><span class="story-answer">False</span><input type="radio" name="answer2"><br><br>
+            <span class="story-answer">True</span><input type="radio" name="answer2"><span class="story-answer">False</span><input type="radio" name="answer2" id="answer4"><br><br>
+
             <span class="story-answer">The mouse made the lion cry.</span>
-            <span class="story-answer">True</span><input type="radio" name="answer3"><span class="story-answer">False</span><input type="radio" name="answer3"><br><br>
+            <span class="story-answer">True</span><input type="radio" name="answer3"><span class="story-answer">False</span><input type="radio" name="answer3" id="answer5"><br><br>
+
             <span class="story-answer">The mouse made the lion laugh loudly.</span>
-            <span class="story-answer">True</span><input type="radio" name="answer4"><span class="story-answer">False</span><input type="radio" name="answer4"><br><br>
+            <span class="story-answer">True</span><input type="radio" name="answer4" id="answer6"><span class="story-answer">False</span><input type="radio" name="answer4"><br><br>
+
             <span class="story-answer">The lion came back to help the mouse.</span>
-            <span class="story-answer">True</span><input type="radio" name="answer5"><span class="story-answer">False</span><input type="radio" name="answer5"><br><br>
+            <span class="story-answer">True</span><input type="radio" name="answer5"><span class="story-answer">False</span><input type="radio" name="answer5" id="answer7"><br><br>
+
             <span class="story-answer">The mouse helped to free the lion.</span>
-            <span class="story-answer">True</span><input type="radio" name="answer6"><span class="story-answer">False</span><input type="radio" name="answer6"><br><br>
+            <span class="story-answer">True</span><input type="radio" name="answer6" id="answer8"><span class="story-answer">False</span><input type="radio" name="answer6"><br><br>
           </ul>
         <li class="exercises bigger">Tick the most appropriate answer.<br>The mouse wanted to...</li>
           <ul type="radio">
-            <input type="radio" name="answer7"><span class="story-answer">Unhappy</span><br>
-            <input type="radio" name="answer7"><span class="story-answer">Funny</span><br>
-            <input type="radio" name="answer7"><span class="story-answer">Beautiful</span><br>
+            <input type="radio" name="answer8"><span class="story-answer">Go home</span><br>
+            <input type="radio" name="answer8"><span class="story-answer">Become Friends</span><br>
+            <input type="radio" name="answer8" id="answer9"><span class="story-answer">Help the lion</span><br>
           </ul>
         <li class="exercises bigger">Tick the most appropriate answer.<br>The two animals…</li>
         <ul type="radio">
-          <input type="radio" name="answer8"><span class="story-answer">Learned a lesson</span><br>
-          <input type="radio" name="answer8"><span class="story-answer">Were kind to each other</span><br>
-          <input type="radio" name="answer8"><span class="story-answer">Said goodbye</span><br>
+          <input type="radio" name="answer9" id="answer10"><span class="story-answer">Learned a lesson</span><br>
+          <input type="radio" name="answer9"><span class="story-answer">Were kind to each other</span><br>
+          <input type="radio" name="answer9"><span class="story-answer">Said goodbye</span><br>
         </ul>
     </div>
       <a href="../htmls/reading-finish.html">
-        <button id="done6" class="pure-button pure-button-primary js-button">Finish</button>
+        <button id="done6" class="pure-button pure-button-primary js-button" onclick="score7()">Finish</button>
       </a>
     <hr class="major">
     </main>

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/mediaqueries.css">
     <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
-    <script src="jquery-3.2.1.min.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
   </head>
   <body>
     <main>
@@ -18,10 +18,10 @@
           Match the colors.
         </p>
         <div class="container">
-          <div id="circle-yellow" class="drag-item" draggable="true" ondragstart="drag(event)"></div>
-          <div id="circle-blue" class="drag-item" draggable="true" ondragstart="drag(event)"></div>
-          <div id="circle-orange" class="drag-item" draggable="true" ondragstart="drag(event)"></div>
-          <div id="circle-pink" class="drag-item" draggable="true" ondragstart="drag(event)"></div>
+          <div id="circleYellow" class="drag-item" draggable="true" ondragstart="drag(event)"></div>
+          <div id="circleBlue" class="drag-item" draggable="true" ondragstart="drag(event)"></div>
+          <div id="circleOrange" class="drag-item" draggable="true" ondragstart="drag(event)"></div>
+          <div id="circlePink" class="drag-item" draggable="true" ondragstart="drag(event)"></div>
         </div>
         <div class="container-flex">
           <div class="container">
@@ -42,7 +42,7 @@
           </div>
         </div>
         <a href="../htmls/reading-exercise5.html">
-          <button id="done4" class="pure-button pure-button-primary js-button">Done</button>
+          <button id="done4" class="pure-button pure-button-primary js-button" onclick="score5()">Done</button>
         </a>
         <hr class="major">
 
