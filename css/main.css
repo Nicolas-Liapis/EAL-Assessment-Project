@@ -283,6 +283,7 @@ a:active {
 }
 
 /*Button and arrows*/
+
 #arrow {
   padding-right: 1rem;
   padding-bottom: -1rem;
@@ -327,6 +328,17 @@ a:active {
   margin-right: 1rem;
   background: #eec139;
   width: 7rem;
+  border: 2px solid #343d3e;
+  color: #343d3e;
+  font-weight: 600;
+}
+
+.finish-button {
+  border-radius: 15px;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  background: #ee8b39;
+  width: 9rem;
   border: 2px solid #343d3e;
   color: #343d3e;
   font-weight: 600;
