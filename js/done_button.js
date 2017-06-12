@@ -36,7 +36,7 @@ function score2() {
      score = score;
   }
 
-  if (score < 1) {alert('Student is Step 1');}
+  if (score < 1) {alert('Test Complete. Student is Step 1');}
   if (score > 1) {document.getElementById('check2').disabled = false;}
 }
 
@@ -52,7 +52,7 @@ function score4() {
   if (calc3 == 21){score++;}else{score = score;}
   if (calc4 == 5){score++;}else{score = score;}
 
-  if (score < 3) {alert('Student is Step 1');}
+  if (score < 3) {alert('Test Complete. Student is Step 1');}
   if (score > 3) {document.getElementById('check3').disabled = false;}
 }
 
@@ -64,7 +64,7 @@ function score5() {
   } else {
     score = score;
   }
-  if (score < 1) {alert('Student is Step 2');}
+  if (score < 1) {alert('Test Complete. Student is Step 2');}
   if (score = 1) {document.getElementById('check4').disabled = false;}
 }
 
@@ -91,7 +91,7 @@ function score6() {
   if (word9 == 'pencil') {score++;}else {score = score;}
   if (word10 == 'two') {score++;}else {score = score;}
 
-  if (score < 9) {document.getElementById('done5').disabled = true; alert('Student is Step 2');}
+  if (score < 9) {document.getElementById('done5').disabled = true; alert('Test Complete. Student is Step 2');}
   if (score > 9) {document.getElementById('check5').disabled = false;}
 }
 
