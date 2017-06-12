@@ -1,8 +1,16 @@
 /*Colors*/
  /*Logo blackish =#343d3e*/
 
- .peachy {
-   background: #ecc384;
+ .blueish {
+   background: #afbff1;
+ }
+
+ .greenish {
+   background: #a0eb81;
+ }
+
+ .coraly {
+   background: #f6986a;
  }
 
 
@@ -129,6 +137,16 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
    -webkit-align-content: stretch;
    align-content: stretch;
    max-height: 50rem;;
+}
+
+.space-around {
+  padding: 2rem;
+}
+
+.writing-img {
+  width: 40%;
+  height: auto;
+  margin: 2rem;
 }
 
 .word-box {
