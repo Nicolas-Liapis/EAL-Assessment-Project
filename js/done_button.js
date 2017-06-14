@@ -112,3 +112,23 @@ function score7() {
   if (score < 9) {document.getElementById('done6').disabled = true; alert('Student is Step 2');}
   if (score > 9) {document.getElementById('check6').disabled = false;}
 }
+
+function none1() {
+  document.getElementById('list1next').style.display = 'none';
+}
+
+function list1() {
+  if (document.getElementById('no1').disabled === false && document.getElementById('no2').disabled === false && document.getElementById('yes2').disabled === false && document.getElementById('no2').disabled === false && document.getElementById('no3').disabled === false && document.getElementById('yes3').disabled === false && document.getElementById('yes4').disabled === false && document.getElementById('no4').disabled === false && document.getElementById('yes5').disabled === false && document.getElementById('no5').disabled === false) {
+    document.getElementById('list1done').disabled = true;
+    document.getElementById('list1next').style.display = 'none';
+  }
+
+  if (document.getElementById('yes1').disabled === true && document.getElementById('no2').disabled === true && document.getElementById('yes3').disabled === true && document.getElementById('yes4').disabled === true && document.getElementById('no5').disabled === true) {
+
+    document.getElementById('list1next').style.display = '';
+    document.getElementById('list1next').disabled = false;
+  } else {
+    document.getElementById('list1next').style.display = 'none';
+    document.getElementById('list1done').disabled = true;
+  }
+}

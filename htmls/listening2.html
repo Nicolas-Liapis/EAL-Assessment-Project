@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lister EAL Assessment</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/mediaqueries.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
+    <script src="../js/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <header><h1>Listening Assessment</h1></header>
+      <main>
+        <p class="exercises biggest">
+          Click on the <span><img id="speaker-q" src="../media/pics/listening/speaker-icon.png"</span> to listen to the question and then click the right answer.
+        </p>
+
+          <div class="centered">
+            <img class="listening-pics2" src="../media/pics/listening/houses.png">
+          </div>
+          <div class="centered">
+              <div class="listening-q2">
+                <button class="listening-question" onclick="play1()"><audio id="audio1" src="../media/audio/q11.m4a" type="audio/m4a"></audio><span><img class="speaker" src="../media/pics/listening/speaker-icon.png"</span></button>
+                <button id="lis2_1" class="examples list-answer lis2 " onclick="disable()">THE GREEN HOUSE</button>
+                <button id="lis2_2" class="examples list-answer lis2">THE YELLOW HOUSE</button>
+                <button id="lis2_3" class="examples list-answer lis2">THE BLUE HOUSE</button>
+                <button id="lis2_3" class="examples list-answer lis2">THE ORANGE HOUSE</button>
+              </div>
+              <div class="listening-q2">
+                <button class="listening-question" onclick="play2()"><audio id="audio2" src="../media/audio/q12.m4a" type="audio/m4a"></audio><span><img class="speaker" src="../media/pics/listening/speaker-icon.png"</span> </button>
+                <button id="lis2_4" class="examples list-answer lis2" >THE GREEN HOUSE</button>
+                <button id="lis2_5" class="examples list-answer lis2" >THE YELLOW HOUSE</button>
+                <button id="lis2_6" class="examples list-answer lis2" >THE BLUE HOUSE</button>
+                <button id="lis2_7" class="examples list-answer lis2 ">THE ORANGE HOUSE</button>
+              </div>
+              <div class="listening-q2">
+                <button class="listening-question" onclick="play3()"><audio id="audio3" src="../media/audio/q13.m4a" type="audio/m4a"></audio><span><img class="speaker" src="../media/pics/listening/speaker-icon.png"</span> </button>
+                <button id="lis2_8" class="examples list-answer lis2" >THE GREEN HOUSE</button>
+                <button id="lis2_9" class="examples list-answer lis2" >THE YELLOW HOUSE</button>
+                <button id="lis2_10" class="examples list-answer lis2 ">THE BLUE HOUSE</button>
+                <button id="lis2_11" class="examples list-answer lis2">THE ORANGE HOUSE</button>
+              </div>
+              <div class="listening-q2">
+                <button  class="listening-question" onclick="play4()"><audio id="audio4" src="../media/audio/q14.m4a" type="audio/m4a"></audio><span><img class="speaker" src="../media/pics/listening/speaker-icon.png"</span> </button>
+                <button id="lis2_12" class="examples list-answer lis2" >THE GREEN HOUSE</button>
+                <button id="lis2_13" class="examples list-answer lis2 ">THE YELLOW HOUSE</button>
+                <button id="lis2_14" class="examples list-answer lis2" >THE BLUE HOUSE</button>
+                <button id="lis2_15" class="examples list-answer lis2" >THE ORANGE HOUSE</button>
+              </div>
+              <button id="list2done" class="pure-button pure-button-primary js-button" onclick="list2()">Done</button>
+              <a href="htmls/listening2.html">
+                <button id="list2next" class="pure-button pure-button-primary js-button" disabled>Next</button>
+              </a>
+          </div>
+    </main>
+      <script type="text/javascript" src="../js/click.js"></script>
+      <script type="text/javascript" src="../js/done_button.js"></script>
+      <script type="text/javascript" src="../js/play-audio.js"></script>
+  </body>
+</html>

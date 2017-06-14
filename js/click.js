@@ -1,3 +1,4 @@
+
 var button1 = document.getElementById('b1');
 
 button1.onclick = function () {
@@ -162,3 +163,67 @@ button16.onclick = function () {
  document.getElementById('b15').disabled = true;
  document.getElementById('b13').disabled = true;
 };
+
+function select10() {
+  document.getElementById('yes1').style.backgroundColor = "#343d3e";
+  document.getElementById('yes1').style.color = "white";
+  document.getElementById('no1').disabled = true;
+};
+
+function select01() {
+  document.getElementById('no1').style.backgroundColor = "#343d3e";
+  document.getElementById('no1').style.color = "white";
+  document.getElementById('yes1').disabled = true;
+};
+
+function select20() {
+  document.getElementById('yes2').style.backgroundColor = "#343d3e";
+  document.getElementById('yes2').style.color = "white";
+  document.getElementById('no2').disabled = true;
+};
+
+function select02() {
+  document.getElementById('no2').style.backgroundColor = "#343d3e";
+  document.getElementById('no2').style.color = "white";
+  document.getElementById('yes2').disabled = true;
+};
+
+function select30() {
+  document.getElementById('yes3').style.backgroundColor = "#343d3e";
+  document.getElementById('yes3').style.color = "white";
+  document.getElementById('no3').disabled = true;
+};
+
+function select03() {
+  document.getElementById('no3').style.backgroundColor = "#343d3e";
+  document.getElementById('no3').style.color = "white";
+  document.getElementById('yes3').disabled = true;
+};
+
+function select40() {
+  document.getElementById('yes4').style.backgroundColor = "#343d3e";
+  document.getElementById('yes4').style.color = "white";
+  document.getElementById('no4').disabled = true;
+};
+
+function select04() {
+  document.getElementById('no4').style.backgroundColor = "#343d3e";
+  document.getElementById('no4').style.color = "white";
+  document.getElementById('yes4').disabled = true;
+};
+
+function select50() {
+  document.getElementById('yes5').style.backgroundColor = "#343d3e";
+  document.getElementById('yes5').style.color = "white";
+  document.getElementById('no5').disabled = true;
+};
+
+function select05() {
+  document.getElementById('no5').style.backgroundColor = "#343d3e";
+  document.getElementById('no5').style.color = "white";
+  document.getElementById('yes5').disabled = true;
+};
+
+$(document).ready(function(){
+    $("button").siblings().css({"display": "none"});
+});
