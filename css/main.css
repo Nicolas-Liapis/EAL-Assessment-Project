@@ -160,6 +160,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   flex-direction: row;
 }
 
+
 .inline {
   display: inline-block;
 }
@@ -500,8 +501,8 @@ a:active {
 .box {
   border: 2px solid #343d3e;
   border-radius: 15px;
-  width: 5.7rem;
-  height: 5.7rem;
+  width: 5.3rem;
+  height: 5.3rem;
   margin: 2rem;
 }
 
@@ -530,15 +531,54 @@ a:active {
 
 /*Listening Styles*/
 
-.grid {
+.listening-phrases {
+  background: #ec3b53;
+  border: 2px solid #5a6262;
+  border-radius: 15px;
+  padding: 1rem;
+  text-align: center;
+  margin-right: 1rem;
+  margin-left: 3rem;
+  margin-top: 4rem;
+  width: 15rem;
+}
 
+.listening-phrases p {
+  margin: 0;
+  font-weight: 600;
+  padding-top: .5 rem;
+  color: white;
+}
 
+.listening-input {
+  margin-top: 4.5rem;
+  width: 17rem;
+  font-size: 2rem;
+}
+
+.container-listening-drag {
+  width: 15rem;
+  height: 5rem;
+  background: white;
+  border: 2px solid #343d3e;
+  border-radius: 15px;
+  padding: 1rem;
+  margin-right: 2rem;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+
+.container-listening-drag p {
+  margin: 0;
+  font-weight: 600;
+  padding-top: .5 rem;
 }
 
 .grid:after {
   content: "";
   display: table;
   clear: both;
+
 }
 
 .grid-left {

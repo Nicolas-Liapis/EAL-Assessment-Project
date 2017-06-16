@@ -132,3 +132,18 @@ function list1() {
     document.getElementById('list1done').disabled = true;
   }
 }
+
+function list2() {
+  if (document.getElementById('lis2_1').disabled === false && document.getElementById('lis2_2').disabled === false && document.getElementById('lis2_3').disabled === false && document.getElementById('lis2_4').disabled === false && document.getElementById('lis2_5').disabled === false && document.getElementById('lis2_6').disabled === false && document.getElementById('lis2_7').disabled === false && document.getElementById('lis_8').disabled === false && document.getElementById('lis2_9').disabled === false && document.getElementById('lis2_10').disabled === false && document.getElementById('lis2_11').disabled === false && document.getElementById('lis2_12').disabled === false && document.getElementById('lis2_13').disabled === false && document.getElementById('lis2_14').disabled === false && document.getElementById('lis2_15').disabled === false && document.getElementById('lis2_16').disabled === false) {
+    document.getElementById('list2done').disabled = true;
+    document.getElementById('list2next').disabled = true;
+  }
+
+  if (document.getElementById('lis2_1').disabled === false && document.getElementById('lis2_8').disabled === false && document.getElementById('lis2_11').disabled === false && document.getElementById('lis2_14').disabled === false) {
+    // document.getElementById('list2next').style.display = '';
+    document.getElementById('list2next').disabled = false;
+  } else {
+    document.getElementById('list2next').disabled = true;
+    document.getElementById('list2done').disabled = true;
+}
+}
