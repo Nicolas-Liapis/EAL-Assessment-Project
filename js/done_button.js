@@ -147,3 +147,28 @@ function list2() {
     document.getElementById('list2done').disabled = true;
 }
 }
+
+function list3() {
+
+  var answer1 = document.getElementById('lis3_input1').value;
+  var answer2 = document.getElementById('lis3_input2').value;
+  var answer3 = document.getElementById('lis3_input3').value;
+  var answer4 = document.getElementById('lis3_input4').value;
+  var answer5 = document.getElementById('lis3_input5').value;
+  var answer6 = document.getElementById('lis3_input6').value;
+  var answer7 = document.getElementById('lis3_input7').value;
+  var answer8 = document.getElementById('lis3_input8').value;
+
+
+  if (answer1 == 'sat down'){score++;}else{score = score;}
+  if (answer2 == 'began knitting'){score++;}else{score = score;}
+  if (answer3 == 'ate breakfast'){score++;}else{score = score;}
+  if (answer4 == 'put on glasses'){score++;}else{score = score;}
+  if (answer5 == 'sat down'){score++;}else{score = score;}
+  if (answer6 == 'visit to Portugal'){score++;}else{score = score;}
+  if (answer7 == 'knitting'){score++;}else{score = score;}
+  if (answer8 == 'holiday to Romania'){score++;}else{score = score;}
+
+  if (score < 6) {document.getElementById('list3next').disabled = true;}
+  if (score > 6) {document.getElementById('list3next').disabled = false;}
+}
