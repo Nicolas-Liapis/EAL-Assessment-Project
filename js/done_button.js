@@ -172,3 +172,12 @@ function list3() {
   if (score < 6) {document.getElementById('list3next').disabled = true;}
   if (score > 6) {document.getElementById('list3next').disabled = false;}
 }
+
+function list4() {
+    if (document.getElementById('lis4_1').disabled === false && document.getElementById('lis4_2').disabled === false && document.getElementById('lis4_3').disabled === false && document.getElementById('lis4_4').disabled === false && document.getElementById('lis4_5').disabled === false && document.getElementById('lis4_6').disabled === false) {
+      document.getElementById('list4next').disabled = true;
+    }
+    if (document.getElementById('lis4_1').disabled === false && document.getElementById('lis4_2').disabled === true && document.getElementById('lis4_3').disabled === true && document.getElementById('lis4_4').disabled === false && document.getElementById('lis4_5').disabled === true && document.getElementById('lis4_6').disabled === false) {
+      document.getElementById('list4next').disabled = false;
+    }
+}

@@ -329,3 +329,46 @@ function disable16() {
   document.getElementById('lis2_15').disabled = true;
   document.getElementById('lis2_13').disabled = true;
 }
+
+
+function true1() {
+
+ document.getElementById('lis4_1').style.backgroundColor = "#343d3e";
+ document.getElementById('lis4_1').style.color = "white";
+ document.getElementById('lis4_2').disabled = true;
+}
+
+function true2() {
+
+ document.getElementById('lis4_3').style.backgroundColor = "#343d3e";
+ document.getElementById('lis4_3').style.color = "white";
+ document.getElementById('lis4_4').disabled = true;
+}
+
+function true3() {
+
+ document.getElementById('lis4_5').style.backgroundColor = "#343d3e";
+ document.getElementById('lis4_5').style.color = "white";
+ document.getElementById('lis4_6').disabled = true;
+}
+
+function false1() {
+
+ document.getElementById('lis4_2').style.backgroundColor = "#343d3e";
+ document.getElementById('lis4_2').style.color = "white";
+ document.getElementById('lis4_1').disabled = true;
+}
+
+function false2() {
+
+ document.getElementById('lis4_4').style.backgroundColor = "#343d3e";
+ document.getElementById('lis4_4').style.color = "white";
+ document.getElementById('lis4_3').disabled = true;
+}
+
+function false3() {
+
+ document.getElementById('lis4_6').style.backgroundColor = "#343d3e";
+ document.getElementById('lis4_6').style.color = "white";
+ document.getElementById('lis4_5').disabled = true;
+}
