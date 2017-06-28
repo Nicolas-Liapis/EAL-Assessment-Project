@@ -298,7 +298,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 }
 
 .story-text {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-align: justify;
   margin-left: 3rem;
   margin-right: 3rem;
@@ -410,7 +410,7 @@ a:active {
   margin-top: 2rem;
   margin-right: 1rem;
   background: #ee8b39;
-  width: 9rem;
+  width: 11rem;
   border: 2px solid #343d3e;
   color: #343d3e;
   font-weight: 600;
@@ -521,9 +521,10 @@ a:active {
   margin: 2rem;
 }
 
+
 .box-1 {
-  width: 5.3rem;
-  height: 5.3rem;
+  width: 5.22rem;
+  height: 5.22rem;
 }
 
 /*Inputs*/
@@ -615,6 +616,7 @@ a:active {
   margin-bottom: 5rem;
   display: flex;
   flex-direction: row;
+  align-items: baseline;
   margin: 0 auto;
   margin-bottom: 2rem;
   width: 100%;
@@ -640,4 +642,8 @@ a:active {
   height: auto;
   border: 2px solid #5a6262;
   border-radius: 15px;
+}
+
+.right {
+  margin-left: 4rem;
 }
