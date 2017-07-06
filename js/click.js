@@ -398,3 +398,7 @@ function false3() {
  document.getElementById('lis4_6').style.color = "white";
  document.getElementById('lis4_5').disabled = true;
 }
+
+function refresh() {
+  location.reload();
+  }

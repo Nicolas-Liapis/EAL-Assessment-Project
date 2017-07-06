@@ -340,8 +340,12 @@ a:active {
 
 /*Button and arrows*/
 
+#backTo {
+  float: right;
+}
+
 .indiv-line {
-  width: 30rem;
+  width: 50%;
   height: 3px;
   margin-right: 2.5rem;
   background: rgb(244, 236, 217);

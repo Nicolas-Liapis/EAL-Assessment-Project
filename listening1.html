@@ -26,22 +26,22 @@
                   <button id="listening1" class="listening-question" onclick="play1()"><audio id="audio1" src="media/audio/q1.m4a" type="audio/m4a"></audio><span><img class="speaker" src="media/pics/listening/speaker-icon.png"</span></button>
                   <button id="yes1" class="examples ex2 list-answer " onclick="select10()">YES</button>
                   <button id="no1" class="examples ex1 list-answer " onclick="select01()">NO</button>
-                </div><hr class="indiv-line">
+                </div>
                 <div class="listening-q">
                   <button id="listening2" class="listening-question" onclick="play2()"><span><img class="speaker" src="media/pics/listening/speaker-icon.png"</span> </button>
                   <button id="yes2" class="examples  ex2 list-answer " onclick="select20()">YES</button>
                   <button id="no2" class="examples  ex1 list-answer " onclick="select02()">NO</button>
-                </div><hr class="indiv-line">
+                </div>
                 <div class="listening-q">
                   <button id="listening2" class="listening-question" onclick="play3()"><span><img class="speaker" src="media/pics/listening/speaker-icon.png"</span> </button>
                   <button id="yes3" class="examples  ex2 list-answer jscolor" onclick="select30()">YES</button>
                   <button id="no3" class="examples  ex1 list-answer jscolor" onclick="select03()">NO</button>
-                </div><hr class="indiv-line">
+                </div>
                 <div class="listening-q">
                   <button id="listening2" class="listening-question" onclick="play4()"><span><img class="speaker" src="media/pics/listening/speaker-icon.png"</span> </button>
                   <button id="yes4" class="examples  ex2 list-answer " onclick="select40()">YES</button>
                   <button id="no4" class="examples  ex1 list-answer " onclick="select04()">NO</button>
-                </div><hr class="indiv-line">
+                </div>
                 <div class="listening-q">
                   <button id="listening2" class="listening-question" onclick="play5()"><span><img class="speaker" src="media/pics/listening/speaker-icon.png"</span> </button>
                   <button id="yes5" class="examples  ex2 list-answer " onclick="select50()">YES</button>
@@ -51,6 +51,7 @@
                 <a href="htmls/listening2.html">
                   <button id="list1next" class="pure-button pure-button-primary js-button" disabled>Next</button>
                 </a>
+                <button id="refresh" class="pure-button pure-button-primary js-button far-right" onclick="refresh()">Try again</button> 
             </div>
           </div>
           <div class="audio-library">
@@ -60,6 +61,8 @@
             <audio id="audio4" src="media/audio/q4.m4a" type="audio/m4a"></audio>
             <audio id="audio5" src="media/audio/q5.m4a" type="audio/m4a"></audio>
           </div>
+
+          <a href="navigation.html"><button id="backTo" class="pure-button pure-button-primary finish-button">Back to navigation</button></a>
       </main>
     <script type="text/javascript" src="js/click.js"></script>
     <script type="text/javascript" src="js/done_button.js"></script>
