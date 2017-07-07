@@ -340,10 +340,6 @@ a:active {
 
 /*Button and arrows*/
 
-#backTo {
-  float: right;
-}
-
 .indiv-line {
   width: 50%;
   height: 3px;
@@ -404,6 +400,7 @@ a:active {
   margin-right: 1rem;
   background: #eec139;
   width: 7rem;
+  height: 3rem;
   border: 2px solid #343d3e;
   color: #343d3e;
   font-weight: 600;
@@ -471,6 +468,9 @@ a:active {
   border-radius: 15px;
 }
 
+#backTo {
+  float: right;
+}
 
 /*Navigation page*/
 
